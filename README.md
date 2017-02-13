@@ -5,6 +5,7 @@ A barebones Node.js app using [Express 4](http://expressjs.com/).
 ## Running Locally
 
 Make sure you have [Node.js](http://nodejs.org/) installed.
+Make sure to change the properties in config file to your local blockchain properties
 
 ```sh
 git clone https://github.com/madhvesh/node-js-sample-blockchain.git
