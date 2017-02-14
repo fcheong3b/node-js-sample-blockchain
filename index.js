@@ -13,7 +13,6 @@ var config = require('./config/settings');
 
 var web3 = new Web3(new Web3.providers.HttpProvider(config.web3Location));
 
-//var message = 'VISA';
 var message = web3.sha3('VISA');
 
 if(web3.isConnected()) {
